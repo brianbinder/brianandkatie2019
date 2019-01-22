@@ -26,19 +26,19 @@ nav > a {
   margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
-  color: blue;
+  color: yellow;
 }
 
 .home-box {
   padding: 10px 0;
   width: 350px;
   max-width: 100%;
-  border: 5px solid blue;
+  border: 5px solid yellow;
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  color: blue;
+  color: yellow;
 }
 
 .home-box > .names {
