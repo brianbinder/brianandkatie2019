@@ -4,7 +4,6 @@ import { StaticQuery, graphql } from "gatsby"
 import { Helmet } from 'react-helmet'
 
 import Header from "./header"
-import "./layout.css"
 
 const style = {
   footer: {
@@ -29,6 +28,7 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Helmet>
           <title>Brian & Katie</title>
+          <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"></link>
         </Helmet>
         <div
           style={{
