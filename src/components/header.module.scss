@@ -1,0 +1,32 @@
+
+
+.link {
+  margin: 0 5px;
+  line-height: 1.1em;
+  text-align: center;
+  .gatsbyLink {
+    text-decoration: none;
+    line-height: 1.1em;
+    color: blue;
+  }
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+  .navBar {
+    justify-content: flex-start;
+    padding: 0 15px;
+    overflow-x: scroll;
+    .link:last-child {
+      padding-right: 15px;
+    }
+  }
+}
