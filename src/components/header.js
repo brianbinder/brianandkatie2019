@@ -3,62 +3,48 @@ import React from "react"
 import headerStyles from './header.module.scss'
 
 const Header = () => (
-  <header
-    style={{
-      marginBottom: `1.45rem`,
-      marginTop: '10px',
-      maxWidth: '100vw',
-      boxSizing: 'border-box',
-    }}
-  >
+  <header className={headerStyles.header}>
     <nav className={headerStyles.navBar}>
       <div className={headerStyles.link}>
         <Link
           className={headerStyles.gatsbyLink}
-          activeStyle={{ fontWeight: 'bold', color: 'purple' }} 
           to="/">Home
         </Link>
       </div>
       <div className={headerStyles.link}>
         <Link
           className={headerStyles.gatsbyLink}
-          activeStyle={{ fontWeight: 'bold', color: 'purple' }} 
           to="/details">Details
         </Link>
       </div>
       <div className={headerStyles.link}>
         <Link
           className={headerStyles.gatsbyLink}
-          activeStyle={{ fontWeight: 'bold', color: 'purple' }} 
-          to="/wedding-party">Wedding Party
+          to="/coming-soon">Wedding Party
         </Link>
       </div>
       <div className={headerStyles.link}>
         <Link
           className={headerStyles.gatsbyLink}
-          activeStyle={{ fontWeight: 'bold', color: 'purple' }} 
           to="/accomodations">Accomodations
         </Link>
       </div>
       <div className={headerStyles.link}>
         <Link
           className={headerStyles.gatsbyLink}
-          activeStyle={{ fontWeight: 'bold', color: 'purple' }} 
-          to="/rsvp">RSVP
+          to="/coming-soon">RSVP
         </Link>
       </div>
       <div className={headerStyles.link}>
         <Link
           className={headerStyles.gatsbyLink}
-          activeStyle={{ fontWeight: 'bold', color: 'purple' }} 
           to="/questions">Questions
         </Link>
       </div>
       <div className={headerStyles.link}>
         <Link
           className={headerStyles.gatsbyLink}
-          activeStyle={{ fontWeight: 'bold', color: 'purple' }} 
-          to="/registry">Registry
+          to="/coming-soon">Registry
         </Link>
       </div>
     </nav>

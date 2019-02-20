@@ -4,16 +4,19 @@ import Layout from "../components/layout"
 
 const IndexPage = () => (
   <Layout>
-    <section className="items">
-      <div className="item">
-        <h2 className="item-title">Best man <strong>Adam Binder</strong></h2>
-        <p className="item-details">Brian's older brother</p>
-      </div>
-      <div className="item">
-        <h2 className="item-title">Maid of honor <strong>Emily Maziarski</strong></h2>
-        <p className="item-details">Katie's younger sister</p>
-      </div>
-    </section>
+    <h1 className="page-header">Wedding Party</h1>
+    <div className="page-content wedding-party">
+      <section>
+        <h2 className="breathe">Best Man</h2>
+        <h2 className="breathe">Adam Binder</h2>
+        <p><span>Brian's older brother...</span></p>
+      </section>
+      <section>
+        <h2 className="breathe">Maid of Honor</h2>
+        <h2 className="breathe">Emily Maziarski</h2>
+        <p><span>Katie's younger sister...</span></p>
+      </section>
+    </div>
   </Layout>
 )
 

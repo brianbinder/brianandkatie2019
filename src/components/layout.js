@@ -4,13 +4,8 @@ import { StaticQuery, graphql } from "gatsby"
 import { Helmet } from 'react-helmet'
 
 import Header from "./header"
+import "./layout.scss"
 
-const style = {
-  footer: {
-    textAlign: 'left',
-    fontSize: '12px'
-  }
-}
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -24,26 +19,20 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div className="page">
         <Header siteTitle={data.site.siteMetadata.title} />
         <Helmet>
           <title>Brian & Katie</title>
           <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"></link>
+          <link rel="shortcut icon" type="image/png" href="/favicon2.ico"></link>
         </Helmet>
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
-          }}
-        >
+        <div className="content">
           <main>{children}</main>
-          <footer style={style.footer}>
+          <footer className="footer">
             October 26, 2019
           </footer>
         </div>
-      </>
+      </div>
     )}
   />
 )

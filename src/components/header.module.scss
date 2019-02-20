@@ -1,13 +1,29 @@
 
+.header {
+  margin-bottom: 20px;
+  padding-top: 50px;
+  max-width: 100vw;
+  box-sizing: border-box;
+  flex-grow: 0;
+  flex-shrink: 0;
+  font-weight: bold;
+  * {
+    font-weight: inherit;
+  }
+}
 
 .link {
   margin: 0 5px;
   line-height: 1.1em;
+  font-size: 16px;
   text-align: center;
   .gatsbyLink {
+    color: #35586C;
     text-decoration: none;
     line-height: 1.1em;
-    color: blue;
+    &:hover {
+      color: gray;
+    }
   }
 }
 
