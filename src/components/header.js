@@ -20,7 +20,7 @@ const Header = () => (
       <div className={headerStyles.link}>
         <Link
           className={headerStyles.gatsbyLink}
-          to="/coming-soon">Wedding Party
+          to="/wedding-party">Wedding Party
         </Link>
       </div>
       <div className={headerStyles.link}>
@@ -32,7 +32,7 @@ const Header = () => (
       <div className={headerStyles.link}>
         <Link
           className={headerStyles.gatsbyLink}
-          to="/coming-soon">RSVP
+          to="/rsvp">RSVP
         </Link>
       </div>
       <div className={headerStyles.link}>
@@ -44,7 +44,7 @@ const Header = () => (
       <div className={headerStyles.link}>
         <Link
           className={headerStyles.gatsbyLink}
-          to="/coming-soon">Registry
+          to="/registry">Registry
         </Link>
       </div>
     </nav>

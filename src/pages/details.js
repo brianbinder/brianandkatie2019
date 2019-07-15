@@ -9,7 +9,7 @@ const IndexPage = () => (
       <section>
         <h2>Ceremony</h2>
         <p><span>Saturday, October 26, 2019</span></p>
-        <p><span>5:00pm</span></p>
+        <p><span>5:30pm</span></p>
       </section>
       <section>
         <p><span>The Manor at Airmont</span></p>
