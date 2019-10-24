@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{210:function(n,e,t){"use strict";t.r(e);var o=t(0),a=t.n(o),c=t(207),i={width:"100%"};e.default=function(){return a.a.createElement(c.a,null,a.a.createElement("img",{src:"/coming-soon.jpg",alt:"comming soon",style:i}))}}}]);
+//# sourceMappingURL=component---src-pages-coming-soon-js-b294a0d81601970deefa.js.map
