@@ -11,9 +11,7 @@ const IndexPage = () => (
         <p><span>45500 Majestic Dr, Dulles, VA 20166</span></p>
         <p><span>(571) 434-6400</span></p>
         <p className="spacer"></p>
-        <p className="small"><span><a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1546968560959&key=GRP&app=resvlink">Book online</a> or mention the Binder-Maziarski wedding when calling</span></p>
-        <p className="spacer"></p>
-        <p className="small">Rooms in the hotel block will be held until <strong>October 6</strong></p>
+        <p>The shuttle departs at <strong>4:15</strong>.</p>
       </section>
       <section className="">
         <h2 className="breathe">Best Western Leesburg</h2>
@@ -21,9 +19,7 @@ const IndexPage = () => (
         <p><span>726 E Market St, Leesburg, VA 20176</span></p>
         <p><span>(703) 777-9400</span></p>
         <p className="spacer"></p>
-        <p className="small"><span><a href="https://www.bestwestern.com/en_US/book/hotel-rooms.47076.html?groupId=W22MW6I4">Book online</a> or mention the Binder-Maziarski wedding when calling</span></p>
-        <p className="spacer"></p>
-        <p className="small">Rooms in the hotel block will be held until <strong>September 11</strong></p>
+        <p>The shuttle departs at <strong>4:30</strong>.</p>
       </section>
     </div>
   </Layout>

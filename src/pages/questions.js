@@ -8,6 +8,11 @@ const IndexPage = () => (
       <section>
         <ul className="questions">
           <li>
+            <h2 className="breathe">When does the shuttle leave?</h2>
+            <p><span>The shuttle from <strong>Courtyard Marriott</strong> departs at <strong>4:15</strong>.</span></p>
+            <p><span>The shuttle from <strong>Best Western</strong> departs at <strong>4:30</strong>.</span></p>
+          </li>
+          <li>
             <h2 className="breathe">Where is Leesburg, VA?</h2>
             <p><span>The city of Leesburg is about an hour west of Washington DC and about 30 minutes from Dulles.</span></p>
           </li>
@@ -19,14 +24,14 @@ const IndexPage = () => (
             <h2 className="breathe">What should I wear?</h2>
             <p><span>We suggest cocktail attire, but please be comfortable.</span></p>
           </li>
-          <li>
-            <h2 className="breathe">Is the ceremony indoors?</h2>
-            <p><span>Yes, the ceremony and reception are indoors so no need to worry about the weather.</span></p>
-          </li>
         </ul>
       </section>
       <section>
         <ul className="questions">
+          <li>
+            <h2 className="breathe">Is the ceremony indoors?</h2>
+            <p><span>Yes, the ceremony and reception are indoors so no need to worry about the weather.</span></p>
+          </li>
           <li>
             <h2 className="breathe">Where is the reception and how late will it go?</h2>
             <p><span>The reception is at the same location as the ceremony and will go until 10pm.</span></p>
